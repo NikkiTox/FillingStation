@@ -2,12 +2,19 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Система расчета стоимости топлива");
 
+        // Переменная типа бензина
         int fuelType = 92;
+        // Переменная колличества
         int amount = 420;
+        // Допустимое количество
         int maxAmount = 400;
+        // Наличие скидки
         boolean hasDiscount = amount > 10;
+        // Стоимость топлива АИ-92
         double fuel92price = 60.2;
+        // Стоимость топлива АИ-95
         double fuel95price = 67.33;
+
         double discount = 0.1;
         String wrongFuelTypeMessage = "Указан неверный тип топлива";
 
